@@ -37,3 +37,6 @@ allow system_app system_data_file:dir r_dir_perms;
 allow system_app system_data_file:file r_file_perms;
 allow system_app system_userdir_file:dir r_dir_perms;
 allow system_app system_userdir_file:file r_file_perms;
+
+# Liquid glass (Themes > Liquid glass) mirrors its compositor tunables into a property
+set_prop(system_app, mist_glass_prop)

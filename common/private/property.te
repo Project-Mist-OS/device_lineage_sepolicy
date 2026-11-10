@@ -13,3 +13,6 @@ system_internal_prop(pif_prop)
 
 # Recovery update
 system_internal_prop(recovery_update_prop)
+
+# Liquid glass compositor tunables, written by Settings and read by SurfaceFlinger
+system_internal_prop(mist_glass_prop)

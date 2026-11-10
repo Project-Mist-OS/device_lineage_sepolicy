@@ -78,3 +78,4 @@ ro.product.fingerprint u:object_r:build_prop:s0 exact string
 
 # Play Integrity staging props read by bionic in DroidGuard
 persist.sys.pif.                       u:object_r:pif_prop:s0
+persist.sys.mist.glass                 u:object_r:mist_glass_prop:s0 exact string

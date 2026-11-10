@@ -1,0 +1,2 @@
+# Liquid glass blur-region lens tunables (Themes > Liquid glass)
+get_prop(surfaceflinger, mist_glass_prop)

@@ -57,3 +57,6 @@ allow system_server ax_sandbox_vault_file:file create_file_perms;
 
 # Stage the Play Integrity props that bionic serves to DroidGuard
 set_prop(system_server, pif_prop)
+
+# Liquid glass: mirror the settings into the SurfaceFlinger property at boot / user switch
+set_prop(system_server, mist_glass_prop)
